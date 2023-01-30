@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Langton's Ant</title>
+	<meta name="author" content="Dominik Adam"/>
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1"/>
+	
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="css/fontello.css"/>
+
+</head>
+<body>
+	
+	<main>
+
+		<header>
+			<div id="menu">
+
+				<i class="icon-play" onclick="step()"></i>
+				<i class="icon-fast-forward" onclick="speedUp()"></i>
+				<i class="icon-pause" onclick="stopSpeedUp()"></i>
+				<i class="icon-arrows-ccw" onclick="initialize()"></i>
+
+			</div>
+		</header>
+
+		<article>
+			<canvas id="canv" width="540" height="540"></canvas>
+		</article>
+
+	</main>
+
+	<footer>
+		<div id="end">If you enjoyed it, consider starring this <a href="https://github.com/duck3456/Langtons-Ant" target="_blank">Github repo</a>!</div>
+	</footer>
+  
+	<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+	background-color: #37474F;
+	margin: 0;
+	text-align: center;
+	color: #212121;
+	user-select: none;
+}
+
+#menu {
+	width: 100%;
+	background-color: #607D8B;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.icon-play, .icon-pause, .icon-fast-forward, .icon-arrows-ccw {
+	font-size: 25px;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	cursor: pointer;
+}
+
+canvas {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+a {
+	text-decoration: underline;
+	color: #212121;
+}
+
+#end {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	margin-left: auto; 
+  	margin-right: auto;
+}
