@@ -1,7 +1,7 @@
 const stepCounter = document.getElementById("stepCounter");
 stepCounter.disabled = true;
 
-let counter = 0;
+let counter;
 
 const canvas = document.getElementById("canv");
 const ctx = canvas.getContext("2d");
@@ -21,6 +21,9 @@ let stateArray;
 let antX, antY, antDirectionX, antDirectionY;
 
 function initialize() {
+	counter = 0;
+	stepCounter.value = counter;
+
 	drawCell(0, 0, canvas.width, canvas.height, "#37474F");
 
 	stateArray = new Array(size).fill(0);
