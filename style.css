@@ -21,6 +21,12 @@ body {
 	cursor: pointer;
 }
 
+#stepCounter {
+	margin-left: 3vw;
+	margin-right: 3vw;
+	text-align: center;
+}
+
 canvas {
     border: 2px solid black;
     margin-top: 20px;

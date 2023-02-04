@@ -1,3 +1,8 @@
+const stepCounter = document.getElementById("stepCounter");
+stepCounter.disabled = true;
+
+let counter = 0;
+
 const canvas = document.getElementById("canv");
 const ctx = canvas.getContext("2d");
 
@@ -40,6 +45,9 @@ function step() {
 		stopSpeedUp();
 		return;
 	}
+
+	counter++;
+	stepCounter.value = counter;
 
 	//change the direction
 	
